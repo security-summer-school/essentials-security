@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkessentials_security=self.webpackChunkessentials_security||[]).push([[9892],{1824:e=>{e.exports=JSON.parse('{"title":"Scratch Linux","slug":"/Scratch Linux/","permalink":"/essentials-security/5/Scratch Linux/","navigation":{"next":{"title":"Scratch Linux","permalink":"/essentials-security/5/Scratch Linux/"}}}')}}]);
