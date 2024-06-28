@@ -159,6 +159,16 @@ docusaurus:
               path: chapters/binary-introduction/binary-analysis/
               subsections:
                 - Reading: reading/README.md
+                - Drills:
+                    path: drills/
+                    subsections:
+                        - Tasks:
+                            path: tasks/
+                            subsections:
+                              - Easy to spot: easy-to-spot/README.md
+                              - Ghidra killer: ghidra-killer/README.md
+                              - Packaging is important: packaging-is-important/README.md
+                              - Spaghetti: spaghetti/README.md
           - Assembly Language:
               path: chapters/binary-introduction/assembly-language/
               extra:
