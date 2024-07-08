@@ -175,8 +175,28 @@ docusaurus:
       - Data:
           - Data Representation:
               path: chapters/data/data-representation/
+              extra:
+                - media/
               subsections:
-                - Reading: reading/README.md
+                - Reading:
+                    path: reading/
+                    subsections:
+                      - Introduction: introduction.md
+                      - Data Formats: data-formats.md
+                      - Character Encoding: character-encoding.md
+                      - Hashing: hashing.md
+                      - Summary: summary.md
+                      - Further Reading: further-reading.md
+                - Drills:
+                    path: drills/
+                    subsections:
+                      - Tasks:
+                          path: tasks/
+                          subsections:
+                            - ASCII Art/: ascii-art/README.md
+                            - Encoding Train/: encoding-train/README.md
+                            - Froggified/: froggified/README.md
+                            - Infinity Hashes/: infinity-hashes/README.md
           - Data Security:
               path: chapters/data/data-security/
               extra:
