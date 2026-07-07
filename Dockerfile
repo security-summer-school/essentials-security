@@ -13,6 +13,9 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
   apt-get update && \
   apt-get install -yqq nodejs
 
+# Resolve npm dependencies to versions available when Docusaurus 2.1 was released.
+ENV NPM_CONFIG_BEFORE=2022-09-03T00:00:00Z
+
 # Install reveal-md using npm.
 RUN npm install -g reveal-md
 
