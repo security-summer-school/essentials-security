@@ -36,7 +36,8 @@ jobs:
           load: true
           tags: essentials-security/docusaurus:latest
           cache-from: type=gha
-          cache-to: type=gha
+          # Cache export is best-effort; the loaded image is the build output.
+          cache-to: type=gha,ignore-error=true
 
       - name: Load Image
         run: |
