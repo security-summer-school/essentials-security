@@ -1,3 +1,4 @@
+# hadolint global ignore=DL3009,DL3013,DL3042,DL4006,DL3016,DL3059
 FROM ghcr.io/open-education-hub/openedu-builder:0.5.1
 
 # Install tools.
@@ -7,8 +8,8 @@ RUN apt-get update && \
 # Install MarkdownPP using pip.
 RUN pip install MarkdownPP
 
-# Install node LTS (16)
-RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
+# Install Node.js 16, which is supported by Docusaurus 2.1.
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - && \
   apt-get update && \
   apt-get install -yqq nodejs
 
